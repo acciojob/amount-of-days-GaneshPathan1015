@@ -1,7 +1,7 @@
 //your JS code here. If required.
-let year = parseInt(prompt());
+// let year = parseInt(prompt());
 
-let ans = function isleap(year) {
+function daysOfAYear(year) {
 
 	if(year%4===0){
 		if(year%100===0 ){
@@ -17,4 +17,3 @@ let ans = function isleap(year) {
 	}
 	
 }
-console.log(ans);
